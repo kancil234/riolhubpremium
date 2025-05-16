@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat"
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: grey;
+}
+
+.container{
+ display: flex;
+  justify-content: center;
+align-items: center;
+  height:400px; 
+
+  
+}
+
+.container .card {
+  width: 40vw;
+  height: 400px;
+  margin: 30px;
+  box-shadow: 20px 20px 50px rgb(0,0,0,1);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid rgb(248, 248, 248, 0.5);
+backdrop-filter: blur(4px);
+
+}
+
+
+.text-field{
+  width: 80%;
+  height: 45px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin: 10px auto 10px;
+  font-size: 17px;
+}
+
+.content input:focus{
+  outline: none;
+}
+
+.content h1{
+ color: azure;
+  text-shadow: 3px 3px 1px black;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.form-input button{
+  width: 80%;
+  background:rgba(255,255,255,0);
+  border: none;
+  border: 1px solid rgb(2,2,2,0.5);
+ padding: 10px;
+  cursor: pointer;
+  margin: 10px auto 10px;
+  border-radius: 10px;
+}
+
+.form-input button:hover{
+  background: rgba(107, 202, 239, 0.8);
+  font-weight: bold;
+}
+
+
+.form-input{
+  height: 100%;
+  width: 100%;
+
+}
+
+@media(max-width: 800px) {
+  .container .card {
+    width: 60vw;
+  }
+}
+
+@media(max-width: 600px) {
+  .container .card {
+    width: 90vw;
+  }
+}
+
+@media(max-width: 400px) {
+  .container .card {
+    width: 60vw;
+  }
+}
+
+a{
+ 
+  text-decoration: none;
+  font-size: 20px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
